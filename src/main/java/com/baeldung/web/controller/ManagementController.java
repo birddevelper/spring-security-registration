@@ -13,7 +13,6 @@ public class ManagementController {
     // Management page
     @GetMapping
     public String management(final Locale locale) {
-
-        return "private/management";
+        return "management";
     }
 }
